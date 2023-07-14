@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    height: 100vh;
+    position: absolute;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.box{
+    /* height: 550px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 18rem;
+    padding: 20px;
+    background-color: aqua;
+    position: relative;
+    top: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.box h2{
+    text-align: center;
+    font-weight: 800;
+}
+
+form input{
+    border: none;
+    outline: none;
+    width: 15.5rem;
+}
+
+form label{
+    margin-top: 15px;
+}
+
+form .pswrd{
+    position: relative;
+}
+
+form .pswrd i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+form .profile{
+    position: relative;
+}
+
+form .profile i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+hr{
+    margin: 0;
+}
+
+.password{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 0;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.password .remember{
+    display: flex;
+    align-items: center;
+}
+
+.password .forgot a{
+    text-decoration: none;
+}
+
+.teacher{
+    text-align: end;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.teacher a{
+    text-decoration: none;
+}

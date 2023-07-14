@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: darkcyan;
+    padding-left: 0px!important;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.first{
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.first .id{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+    width: 212px;
+    margin: auto;
+    height: 14rem;
+}
+
+.first .id .photo img{
+    width: 190px;
+}
+
+.first .lab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first .lab a{
+    text-decoration: none;
+    margin-top: 15px;
+    width: 60%;
+    color: #792cf7;
+}
+
+.first .logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first .logout i{
+    font-size: 2rem;
+}
+
+.first .logout h5{
+    margin-left: 15px;
+}
+
+.first .result{
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+
+.box1{
+    padding: 1rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+.box2{
+    border-radius: 10px;
+}
+
+.second .dot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.second .dot i{
+    font-size: 15px;
+    color: green;
+}
+
+.second .range .prange .firstbck{
+    width: 100%;
+    height: 20px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.second .range .prange .secbck{
+    width: 95%;
+    height: 20px;
+    background-color:#65D197;
+    border-radius: 20px;
+}
+
+.second .range .drange .firstbck{
+    width: 100%;
+    height: 20px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.second .range .drange .secbck{
+    width: 86%;
+    height: 20px;
+    background-color: #8476DE;
+    border-radius: 20px;
+}
+
+.second .range .jrange .firstbck{
+    width: 100%;
+    height: 20px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.second .range .jrange .secbck{
+    width: 78%;
+    height: 20px;
+    background-color: #FF9964;
+    border-radius: 20px;
+}
+
+.second .dot .range{
+    border-top: 3px solid black;
+}
+
+.second .range .python .marks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second .range .dbms .marks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second .range .java .marks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second .box2{
+    padding: 1rem;
+    background-color: #fff;
+    margin-left: 0.5rem;
+}
+
+.second .box2 i{
+    color: green;
+}
+
+.second .box2 .name{
+    border-top: 3px solid black;
+}
+
+.second .box2 .name .n1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.second .box2 .name .n1 h5{
+    border-bottom: 1px solid black;
+}
+
+.tables{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 3rem!important;
+    background-color: #fff;
+    margin-left: 0.2rem!important;
+    border-radius: 10px;    
+}
+
+.tables .table{
+    width: 14.28%;
+}
+
+.tables i{
+    color: green;
+}
+
+.tables .table h5{
+    background-color: #b3d1c1;
+}
+
+.tables .sub{
+    text-align: left;
+}
+
+.tables .no1{
+    background-color: #65D197;
+    width: 80%;
+    margin-left: 1.3rem;
+    border-radius: 10px;
+}
+
+.tables .no2{
+    background-color: #8476DE;
+    width: 80%;
+    margin-left: 1.3rem;
+    border-radius: 10px;
+}
+
+.tables .no3{
+    background-color: #FF9964;
+    width: 80%;
+    margin-left: 1.3rem;
+    border-radius: 10px;
+}
+    

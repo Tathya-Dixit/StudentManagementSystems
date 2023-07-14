@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: darkcyan;
+    padding-left: 0px!important;
+    overflow: hidden;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.first{
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.first .id{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+    width: 212px;
+    margin: auto;
+    height: 14rem;
+}
+
+.first .id .photo img{
+    width: 190px;
+}
+
+.first .lab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first .lab a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: #792cf7;
+}
+
+.first .logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.first .logout i{
+    font-size: 2rem;
+}
+
+.first .logout h5{
+    margin-left: 15px;
+}
+
+.first .lab .profile{
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    width: 60%;
+}
+
+.second .my{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.second .profile{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.second .my h3{
+    margin-left: 10px;
+    border-bottom: 3px solid black;
+}
+
+.second .my i{
+    color: #65d197;
+}
+
+.second .profile .box1{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: end;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.second .photo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.second .photo img{
+    border-radius: 100%;
+    width: 80%;
+    height: 7rem;
+}
+
+.second .photo .xyz p{
+    margin: 0;
+}
+
+.second .area .box1 .edit .btn{
+    background-color: #fff;
+    border: 1px solid black;
+    width: 4rem;
+    border-radius: 20px;
+}
+
+.second .profile .area .box2 .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second .profile .area .box2{
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.second .area .box2 .info .btn{
+    background-color: #fff;
+    border: 1px solid black;
+    width: 4rem;
+    border-radius: 20px;
+}
+
+.second .area .box2 .about p{
+    margin: 0;
+}
+
+.second .area .box2 .about h5{
+    font-size: 18px;
+}
+
+.second .area .box3{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.second .area .box3 .one{
+    width: 49%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 0;
+}
+
+
+.second .area .box3 .one .institute{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second .area .box3 .one .institute .btn{
+    background-color: #fff;
+    border: 1px solid black;
+    width: 4rem;
+    border-radius: 20px;
+}
+
+.second .area .box3 .two{
+    width: 49%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 0;
+}
+
+
+.second .area .box3 .two .institute{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second .area .box3 .two .institute .btn{
+    background-color: #fff;
+    border: 1px solid black;
+    width: 4rem;
+    border-radius: 20px;
+}
+
+.second .area .box3 p{
+    margin: 0;
+}
+
+.second .area .box3 h5{
+    font-size: 18px;
+}
+
+.second .area .box3 .two .forgot h5{
+    text-align: center;
+    margin-top: 1rem;
+}

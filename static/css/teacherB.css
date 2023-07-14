@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: darkcyan;
+    padding-left: 0px!important;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.first{
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.first .id{
+    background-color: rgb(216, 217, 216);
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    margin: auto;
+    height: 13rem;
+}
+
+.first .id .photo img{
+    width: 150px;
+    height: 120px;
+    margin-top: 10px;
+
+}
+
+.first .lab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first .lab a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: #792cf7;
+}
+
+.first .logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.first .logout i{
+    font-size: 2rem;
+}
+
+.first .logout h5{
+    margin-left: 15px;
+}
+
+.first .lab .class{
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    width: 60%;
+}
+
+.second .batch{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    background-color: #fff;
+    justify-content: baseline;
+    margin-left: 2px;
+}
+
+.second .batch a{
+    text-decoration: none;
+    color: black;
+}
+
+.second .batch .bA{
+    width: 125px;
+    text-align: center;
+}
+
+.second .batch .bB{
+    background-color: #D9D9D9;
+    width: 125px;
+    text-align: center;
+}
+
+
+.second .box{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    color: #65d197;
+}
+
+.second .box a{
+    color: #65d197;
+}
+
+.second .box1{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    color: #feb48f;
+}
+
+.second .box1 a{
+    color: #feb48f;
+}
+
+.second .box2{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    color: #bc646e;
+}
+
+.second .box2 a{
+    color: #bc646e;
+}
+
+.second .box, .box1 , .box2, .box3, .box4, .box5{
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second .box .image img{
+    width: 100%;
+}
+
+.second .box1 .image img{
+    width: 100%;
+}
+
+.second .box2 .image img{
+    width: 100%;
+}
+
+.second .box3{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    color: #8b7fe1;
+}
+
+.second .box3 a{
+    color: #8b7fe1;
+}
+
+
+.second .box4{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    color: #ba64d1;
+}
+
+.second .box4 a{
+    color:#ba64d1;
+}
+
+
+.second .box5{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    color: #c5bc7b;
+}
+
+.second .box5 a{
+    color: #c5bc7b;
+}
+
+
+.second .box3 .image img{
+    width: 100%;
+}
+
+.second .box4 .image img{
+    width: 100%;
+}
+
+.second .box5 .image img{
+    width: 100%;
+}
+
+
+
+

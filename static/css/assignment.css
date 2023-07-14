@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: darkcyan;
+    padding-left: 0px!important;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.first{
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.first .id{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+    width: 212px;
+    margin: auto;
+    height: 14rem;
+}
+
+.first .id .photo img{
+    width: 190px;
+}
+
+.first .lab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first .lab a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: #792cf7;
+}
+
+.first .logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.first .logout i{
+    font-size: 2rem;
+}
+
+.first .logout h5{
+    margin-left: 15px;
+}
+
+.first .lab .result{
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    width: 60%;
+}
+
+.second .box{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.second .box .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second .box .name i{
+    color: #65d197;
+}
+
+.second .box .name h5{
+    margin-left: 10px;
+}
+
+.second .box .range img{
+    width: 50%;
+}
+
+.second .box .range{
+    position: relative;
+    height: 17vh;
+    margin-top: 1rem;
+}
+
+.second .box .number{
+    position: absolute;
+    top: 2rem;
+    right: 9.8rem;
+    font-size: 1.5rem;
+}
+
+
+.second .box .range .number p{
+    margin-bottom: 0;
+    
+}
+
+.second .box .range .number .icon{
+transform: rotate(235deg);
+}
+
+.second .box .com p{
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.second .box1{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.second .box1 .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second .box1 .name i{
+    color: #8476de;
+}
+
+.second .box1 .name h5{
+    margin-left: 10px;
+}
+
+.second .box1 .range img{
+    width: 50%;
+}
+
+.second .box1 .range{
+    position: relative;
+    height: 17vh;
+    margin-top: 1rem;
+}
+
+.second .box1 .number{
+    position: absolute;
+    top: 2rem;
+    right: 9.8rem;
+    font-size: 1.5rem;
+}
+
+
+.second .box1 .range .number p{
+    margin-bottom: 0;
+    
+}
+
+.second .box1 .range .number .icon{
+transform: rotate(213deg);
+}
+
+.second .box1 .com p{
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.second .box2{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.second .box2 .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second .box2 .name i{
+    color: #ff9964;
+}
+
+.second .box2 .name h5{
+    margin-left: 10px;
+}
+
+.second .box2 .range img{
+    width: 50%;
+}
+
+.second .box2 .range{
+    position: relative;
+    height: 17vh;
+    margin-top: 1rem;
+}
+
+.second .box2 .number{
+    position: absolute;
+    top: 2rem;
+    right: 9.2rem;
+    font-size: 1.5rem;
+}
+
+
+.second .box2 .range .number p{
+    margin-bottom: 0;
+    
+}
+
+.second .box2 .range .number .icon{
+transform: rotate(270deg);
+}
+
+.second .box2 .com p{
+    font-weight: 600;
+    margin: 0;
+}
+
+.second .box, .box1 , .box2, .box3, .box4, .box5{
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.second .box3{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.second .box3 .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second .box3 .name i{
+    color: #bb65d1;
+}
+
+.second .box3 .name h5{
+    margin-left: 10px;
+}
+
+.second .box3 .range img{
+    width: 50%;
+}
+
+.second .box3 .range{
+    position: relative;
+    height: 17vh;
+    margin-top: 1rem;
+}
+
+.second .box3 .number{
+    position: absolute;
+    top: 2rem;
+    right: 9.5rem;
+    font-size: 1.5rem;
+}
+
+
+.second .box3 .range .number p{
+    margin-bottom: 0;
+    
+}
+
+.second .box3 .range .number .icon{
+transform: rotate(235deg);
+}
+
+.second .box3 .com p{
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.second .box4{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.second .box4 .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second .box4 .name i{
+    color: #a22433;
+}
+
+.second .box4 .name h5{
+    margin-left: 10px;
+}
+
+.second .box4 .range img{
+    width: 50%;
+}
+
+.second .box4 .range{
+    position: relative;
+    height: 17vh;
+    margin-top: 1rem;
+}
+
+.second .box4 .number{
+    position: absolute;
+    top: 2rem;
+    right: 9.5rem;
+    font-size: 1.5rem;
+}
+
+
+.second .box4 .range .number p{
+    margin-bottom: 0;
+    
+}
+
+.second .box4 .range .number .icon{
+transform: rotate(135deg);
+}
+
+.second .box4 .com p{
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.second .box5{
+    width: 31%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.second .box5 .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second .box5 .name i{
+    color: #aaa040;
+}
+
+.second .box5 .name h5{
+    margin-left: 10px;
+}
+
+.second .box5 .range img{
+    width: 50%;
+}
+
+.second .box5 .range{
+    position: relative;
+    height: 17vh;
+    margin-top: 1rem;
+}
+
+.second .box5 .number{
+    position: absolute;
+    top: 2rem;
+    right: 9.5rem;
+    font-size: 1.5rem;
+}
+
+
+.second .box5 .range .number p{
+    margin-bottom: 0;
+    
+}
+
+.second .box5 .range .number .icon{
+transform: rotate(215deg);
+}
+
+.second .box5 .com p{
+    font-weight: 600;
+    margin: 0;
+}
+

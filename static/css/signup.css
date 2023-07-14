@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+    
+}
+
+.row img{
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row h2{
+    text-align: center;
+    font-weight: 800;
+}
+
+.row form input{
+    border: none;
+    outline: none;
+    width: 15.5rem;
+}
+
+.row form label{
+    margin-top: 15px;
+}
+
+.row form .pswrd{
+    position: relative;
+}
+
+.row form .pswrd i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+.row form .profile{
+    position: relative;
+}
+
+.row form .profile i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+.row hr{
+    margin: 0;
+}
+
+.row .password{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 0;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.row .password .remember{
+    display: flex;
+    align-items: center;
+}
+
+.row .password .forgot a{
+    text-decoration: none;
+}
+
+.row .teacher{
+    text-align: end;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.row .teacher a{
+    text-decoration: none;
+    margin-left: 10px;
+}

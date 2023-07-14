@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: darkcyan;
+    padding-left: 0px!important;
+    overflow: hidden;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.first{
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.first .id{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+    width: 212px;
+    margin: auto;
+    height: 14rem;
+}
+
+.first .id .photo img{
+    width: 190px;
+}
+
+.first .lab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first .lab a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: #792cf7;
+}
+
+.first .logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.first .logout i{
+    font-size: 2rem;
+}
+
+.first .logout h5{
+    margin-left: 15px;
+}
+
+.first .lab .performance{
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    width: 60%;
+}
+
+.second .box{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 21.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.second .box .skill{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.second .box .skill i{
+    color:#65d096 ;
+}
+
+.second .box .skill h5{
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+.second .box .creative{
+    margin-top: 3.5rem;
+}
+
+.second .box .creative img{
+    width: 100%;
+}
+
+.second .box .creative p{
+    font-size: 12px;
+}
+
+
+.second .box1{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 21.5rem;
+}
+
+.second .box1 .result{
+    display: flex;
+    flex-direction: row;
+}
+
+.second .box1 .result i{
+    color:#65d096 ;
+}
+
+.second .box1 .graph{
+    margin-top: 2rem;
+}
+
+.second .box1 .result h5{
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+.second .box1 img{
+    width: 100%;
+}
+
+
+.second .box2{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 21.5rem;
+}
+
+.second .box2 .quiz{
+    display: flex;
+    flex-direction: row;
+}
+
+.second .box2 .quiz i{
+    color:#65d096 ;
+}
+
+.second .box2 .quiz h5{
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+.second .box2 .circle img{
+    width: 100%;
+}
+
+.second .box2 .circle .l1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.second .box2 .circle {
+    text-align: center;
+}
+
+.second .box2 .circle .l1 i{
+    margin-left: 10px;
+}
+
+.second .box2 .circle .l2{
+    display: flex;
+    flex-direction: row;
+}
+
+.second .box2 .circle .l2 p{
+    margin-left: 10px;
+}
+
+.second .box2 .circle .l3{
+    display: flex;
+    flex-direction: row;
+}
+
+.second .box2 .circle .l3 i{
+    margin-right: 10px;
+}
+
+.second .box2 .circle .l4{
+    display: flex;
+    flex-direction: row;
+}
+
+.second .box2 .circle .l4 p{
+    margin-left: 10px;
+}
+.second .box2 .circle .l5{
+    display: flex;
+    flex-direction: row;
+}
+
+.second .box2 .circle .l5 p{
+    margin-left: 10px;
+}
+.second .box2 .circle .l6{
+    display: flex;
+    flex-direction: row;
+}
+
+.second .box2 .circle .l6 p{
+    margin-left: 10px;
+}
+
+
+
+.second .box3{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 21.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.second .sem{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.second .sem .sem1{
+    border: 2px solid black;
+    padding: 2px;
+    height: 2rem;
+
+}
+
+.second .box3 .result{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.second .box3 .result i{
+    color:#65d096 ;
+}
+
+.second .box3 .result h5{
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+.second .box3 .creative{
+    margin-top: 1.5rem;
+}
+
+.second .box3 .creative img{
+    width: 100%;
+}
+
+.second .box3 .creative p{
+    font-size: 12px;
+}
+
+.second .box3 .exam{
+    text-align: center;
+    position: relative;
+}
+
+.second .box3 .exam img{
+    width: 40%;
+}
+
+.second .box3 .exammmm {
+    position: absolute;
+    top: 5rem;
+    right: 13.2rem;
+}
+
+
