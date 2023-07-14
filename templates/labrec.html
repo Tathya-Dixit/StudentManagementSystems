@@ -18,8 +18,8 @@
                 <div class="container id">
                     <div class="container photo p-1">
                         <img src="static/img/m2.jpg" alt="">
-                        <h5 class="mt-3">Xavier</h5>
-                        <p>CSE-B</p>
+                        <h5 class="mt-3">{{request.user.studentprofile.firstName.upper}}</h5>
+                        <p>{{user.studentprofile.batch}}</p>
                     </div>
                 </div>
                 <div class="container mt-5">
